@@ -29,7 +29,7 @@ public class Veículo {
 	 }
 	 
 	 
-	 public int getID() {
+	 public int pegarID() {
 		 return this.ID;
 	 }
 	 

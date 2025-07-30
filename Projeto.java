@@ -13,27 +13,12 @@ public class Main {
 		System.out.println("O código cadastral do cliente " + cl1.getNome() + " é: " + cl1.getCadastro() + " .");
 		
 		v1.adicionar_veiculo();
-		cl1.ingressar();
+		cl1.ingressar(v1.pegarID());
 		
 		v1.setID(9123445);
-		System.out.println("A identificação do veículo de rota: " + v1.getrota() + " é: " + v1.getID() + " .");
+		System.out.println("A identificação do veículo de rota: " + v1.getrota() + " é: " + v1.pegarID() + " .");
 		
 		}
 	
 }
 
-import TransTakwary.Cliente;
-public class Cliente extends Veículo{
-	int cadastro;
-	String nome;
-	
-	public Aluno(String nome, int cadastro, String rota) {
-		super(rota);
-		this.cadastro = cadastro;
-	}
-	
-	@Override
-	void ingressar() {
-		System.out.print("O cliente está efetivando o ingresso de reserva no serviço veicular.");
-	}
-}
