@@ -9,7 +9,8 @@ public class Cliente extends Veículo{
 	}
 	
 	@Override
-	void ingressar(int getID) {
-		System.out.print("O cliente está efetivando o ingresso de reserva no veículo " + getID + " . ");
+	void ingressar(int pegarID) {
+		System.out.print("O cliente está efetivando o ingresso de reserva no veículo " + pegarID + " . ");
 	}
 }
+
