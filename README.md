@@ -1,3 +1,4 @@
+🏢 Sobre a TransTakwary
 Agência de Transporte TransTakwary
 De início, o TransTakwary é uma Agência de Transporte desenvolvida a partir da
 necessidade cada vez mais constante e atual de um serviço automotivo eficaz, que 
@@ -10,8 +11,8 @@ de conservação e motoristas altamente qualificados da forma que você precisa.
 
 
 🛠️ Serviços Oferecidos
-A TransTakwary realiza:
 
+A TransTakwary realiza:
 🚐 Viagens intermunicipais e interestaduais por van
 🏫 Transporte escolar particular e universitário
 🏖️ Excursões turísticas e viagens para grupos fechados
