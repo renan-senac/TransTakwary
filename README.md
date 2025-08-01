@@ -24,5 +24,7 @@ A TransTakwary está constantemente avaliando suas operações para aprimorar os
  
 * Eclipse
 * Vs-code
+* Git-Hub
+* Readme.so
 
 ![Logo](https://www.canva.com/design/DAGurvtncoE/hpqphB2QaFoOc1CVLPCV6A/edit?utm_content=DAGurvtncoE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
