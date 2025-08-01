@@ -2,17 +2,17 @@ package TransTakwary;
 
 public class Main {
 	public static void main(String[] args) {
-		Veículo v1 = new Veículo("Avenida Agamenon Magalhães - Rua Coronel Tejo", 123456);
+		Veiculo v1 = new Veiculo("Avenida Agamenon Magalhães - Rua Coronel Tejo", 123456);
 		Cliente cl1 = new Cliente("Eduardo", 4908132);
 		
-		System.out.println("O nome do cliente é " + cl1.getNome());
+		System.out.println("O nome do cliente é " + cl1.getnome());
 		
-		cl1.setCadastro(3568369);
+		cl1.setcadastro(456789);
 		System.out.println("--Fazendo Cadastro--");
 		System.out.println("Emitindo código...");
-		System.out.println("O código cadastral do cliente " + cl1.getNome() + " é: " + cl1.getCadastro() + " .");
+		System.out.println("O código cadastral do cliente " + cl1.getnome() + " é: " + cl1.getcadastro() + " .");
 		
-		v1.adicionar_veiculo();
+		v1.adicionar();
 		cl1.ingressar(v1.pegarID());
 		
 		v1.setID(9123445);
@@ -21,4 +21,3 @@ public class Main {
 		}
 	
 }
-

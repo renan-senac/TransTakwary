@@ -1,20 +1,20 @@
 //Iniciando Projeto de serviço de tranporte 
 package TransTakwary;
 
-public class Veículo {
+public class Veiculo {
 	 public String rota;
 	 private int ID;
 	 
-	 public Veículo(String rota, int ID) {
+	 public Veiculo(String rota, int ID) {
 		 this.rota = rota;
 		 this.ID = ID;
 	 }
 	 
-	 void adicionar_veículo() {
+	 public void adicionar() {
 		 System.out.print("O veículo: " + this.ID + "será direcionado para a rota: " + this.rota);
 	 }
 	 
-	 void calcular_rota() {
+	 public void calcular_rota() {
 		 System.out.print("Buscando: " + this.rota);
 	 }
 	 
@@ -24,8 +24,8 @@ public class Veículo {
 	 }
 	 
 	 
-	 public String setrota(String rotaVeículo) {
-		 return this.rota = rotaVeículo;
+	 public String setrota(String rotaVeiculo) {
+		 return this.rota = rotaVeiculo;
 	 }
 	 
 	 
@@ -39,4 +39,3 @@ public class Veículo {
 	 }
 
 }
-
