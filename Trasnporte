@@ -1,0 +1,18 @@
+package TransTalkwary
+import TransTalkwary.tranporte
+
+public class Cliente extends tranporte {     // o codigo define uma classe. que herda de trasnsporte 
+    int cadastro ;
+    String nome ;
+
+    public Cliente(String nome, int cadastro, String Rota) {         // tem atributos.
+        super(Rota);
+        this.cadastro = cadastro;                                   //usa o construtor supweclasse
+        this.nome = nome;
+    }
+
+    @Override
+    void agendar() {
+        System.out.println("Agendando!!" + this.cadastro + "na rota :" + this.Rota );        //Sobrescreve um método para imprimir uma mensagem personalizada com os dados do cliente
+    }
+}
