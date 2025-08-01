@@ -8,6 +8,7 @@ TransTakwary
 A TransTakwary realiza: 🚐 Viagens intermunicipais e interestaduais por van 🏫 Transporte escolar particular e universitário 🏖️ Excursões turísticas e viagens para grupos fechados 👨‍💼 Fretamento empresarial para funcionários e eventos ♿ Atendimento especializado para idosos e pessoas com deficiência 📦 Entrega rápida de pequenas encomendas (serviço opcional)
 
 🧑‍💻 Sobre o código
+
 O código se resume a uma base de dados simples que se utiliza das metodologias de Herança e Polimorfismo para o repasse de atributos e dados entre as classes. O código é composto de quatro classes, sendo elas veículo, referente ao ID e a rota do mesmo, cliente referente ao nome e código de cadastro do freguês, além de especial, voltado para usuários detentoras da política de desconto, ou que necessita de assistência especial e adaptada. Por último, temos a Main que é onde tudo acontece e o código se desenvolve. Os métodos Get e Set também foram utilizadas na atribuição de valores e informações às variáveis.
 
 📝 Requisitos operacionais da TransTakwary:
